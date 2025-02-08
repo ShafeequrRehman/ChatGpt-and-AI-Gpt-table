@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1d1d25;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 3px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Add Background Image */
+            background-image: url('https://raw.githubusercontent.com/ShafeequrRehman/tableimage/f3fad32cbe8c0d2192d6393dbcd31ed4bfc02b9b/Group%20211.svg');
+            background-size: cover; /* Cover the entire table */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            font-size: 0.7rem;
+            border-radius: 3px;
+            border: 1px solid #70707081;
+            background-color:#1d1d2520; /* Adding transparency to cells for visibility */
+           
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #1d1d25;
+                         }
+        .bar-container {
+            width: 100%;
+            background-color: #555;
+            overflow: hidden;
+            border-radius: 3px;
+        }
+
+        .bar-value {
+            height: 30px;
+            border-radius: 3px;
+        }
+        @media screen and (max-width: 480px){
+            body {
+     
+      padding: 0px;
+     
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="text-align: center; font-weight: 800;"> Characteristic</th>
+                <th style="text-align: center; font-weight: 800;">1=highest concern 9=lowest concern</th>
+                <th style="text-align: center; font-weight: 800;">Share of Respondents</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Privacy and data security</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;">29%</td>
+            </tr>
+            <tr>
+                <td>Algorithmic bias and fairness</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: center;">20%</td>
+            </tr>
+            <tr>
+                <td>Ethics and morality (misuse)</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;">15%</td>
+            
+            </tr>
+            <tr>
+                <td>Accountability and responsibilty</td>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">17%</td>
+            </tr>
+            <tr>
+                <td>Manipulation and Propaganda</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">17%</td>
+            </tr>
+            <tr>
+                <td>Economic disruption and job displacement</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;">15%</td>
+            </tr>
+            <tr>
+                <td>Intellectual property infringement</td>
+                <td style="text-align: center;">7</td>
+                <td style="text-align: center;">21%</td>
+            </tr>
+            <tr>
+                <td>Regulatory Challenges</td>
+                <td style="text-align: center;">8</td>
+                <td style="text-align: center;">21%</td>
+            </tr>
+            <tr>
+                <td>Unitended consequence and unforeseen risks</td>
+                <td style="text-align: center;">9</td>
+                <td style="text-align: center;">30%</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
